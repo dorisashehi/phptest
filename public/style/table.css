@@ -1,0 +1,10 @@
+.general-table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto 50px auto;
+
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}

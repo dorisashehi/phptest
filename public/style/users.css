@@ -1,0 +1,23 @@
+
+.pagination {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+  
+.pagination span {
+    background-color: #4CAF50;
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    border: 1px solid #4CAF50;
+}
