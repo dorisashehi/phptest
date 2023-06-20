@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Login</title>
-	<script src="login.js"></script> <!-- JavaScript file for form validation -->
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>

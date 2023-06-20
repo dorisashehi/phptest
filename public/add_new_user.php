@@ -3,11 +3,6 @@
 session_start();
 require 'connection.php';
 
-// Check for connection errors
-if ($mysqli->connect_error) {
-    die('Connection failed: ' . $mysqli->connect_error);
-}
-
 
 $first_name =  $_POST['first_name'];
 $last_name =  $_POST['last_name'];
