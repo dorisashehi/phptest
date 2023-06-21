@@ -1,8 +1,12 @@
 <?php
 
+//check if user logged in 
 require 'loggedin.php';
+
+//connect to database
 require 'connection.php';
 
+//get form data posted
 $userID =  $_POST['userID'];
 $first_name =  $_POST['first_name'];
 $last_name =  $_POST['last_name'];

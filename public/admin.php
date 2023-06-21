@@ -15,7 +15,7 @@ if (!isset($_SESSION['loggin'])) {
 </head>
 <body>
 
-    <?php require 'menu.html'; ?>
+    <?php require 'menu.html'; //inslude the menu file. ?>
 	<h1>Administration Page</h1>
 </body>
 </html>

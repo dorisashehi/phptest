@@ -1,4 +1,5 @@
 <?php
+//check if user is logged in 
 require 'loggedin.php';
 ?>
 <!DOCTYPE html>
@@ -8,7 +9,7 @@ require 'loggedin.php';
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-    <?php require 'menu.html'; ?>
+    <?php require 'menu.html'; //put menu ?>
 
     <?php  
         //get from the url the user that you want to edit.

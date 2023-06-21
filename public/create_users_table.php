@@ -1,4 +1,6 @@
 <?php
+
+//connect to database
 require 'connection.php';
 
 // SQL statement to create the "users" table

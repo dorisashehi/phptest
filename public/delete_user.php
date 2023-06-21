@@ -1,11 +1,15 @@
 <?php
+
+//check if user is logged in 
 require 'loggedin.php';
+
+//connect to database
 require 'connection.php';
 
+//get the user id that we want to delete from the url of the page 
 $userID =  $_GET['id'];
 
-
-// execute the sql to delete the user.
+// create the sql to delete the user.
     $insertSql = "
         DELETE FROM users WHERE userID = '$userID'
     ";
