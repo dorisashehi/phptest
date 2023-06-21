@@ -44,7 +44,7 @@ require 'loggedin.php';
                 
 
                 // Query database for all users and do not show the administrator user
-                $sql = "SELECT * FROM users WHERE login != 'dorisashehi' LIMIT $startIndex, $usersPerPage";
+                $sql = "SELECT * FROM users WHERE login != 'dorisashehi' ORDER BY userID DESC LIMIT $startIndex, $usersPerPage";
                 $result = mysqli_query($conn, $sql);
 
                 // Count total number of users for pagination
