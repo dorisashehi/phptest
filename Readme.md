@@ -1,5 +1,6 @@
 # Installation
 
+Pull from my repository and switch to development branch.
 At the root directory run: docker-compose up -d
 
 ### Url
